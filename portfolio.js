@@ -1,14 +1,14 @@
 document.addEventListener('DOMContentLoaded', function () {
-    // Initialisation de Typed.js
+    // Initialisation of Typed.js
     const typed = new Typed('.multiple-text', {
-        strings: ['FullStack Developer', 'Video Editor', 'Hucker Engineer', 'Motion and Graphics Designer'],
+        strings: ['FullStack Developer', 'Video Editor', 'Software Engineer', 'Motion and Graphics Designer'],
         typeSpeed: 70,
         backSpeed: 70,
         backDelay: 1000,
         loop: true,
     });
 
-    // Initialisation de ScrollReveal
+    // Initialisation of ScrollReveal
     ScrollReveal({
         distance: '80px',
         duration: 2000,
@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function () {
     ScrollReveal().reveal('.home-contact p, .about-content', { origin: 'right' });
 });
 
-let menuIcon = document.querySelector('.fa-bars'); // Modifier la sélection ici
+let menuIcon = document.querySelector('.fa-bars'); // Updated selector
 let navbar = document.querySelector('.navbar');
 
 menuIcon.onclick = () => {
